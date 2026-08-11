@@ -1,19 +1,19 @@
 [
     {
-        "codigo": "UC001",
-        "nome": "Estatística",
-        "area": "Matemática e Estatística",
-        "descricao": "Fundamentos de estatística aplicada.",
+        "codigos": "UC001",
+        "nome": "EstatísticaX",
+        "area": "Matemática e EstatísticaY",
+        "descricaoX": "FUVI.",
         "carga_horaria": {
-            "teorica": 40,
-            "pratica": 20,
-            "extensao": 0,
-            "total": 60
+            "teorica": 10,
+            "pratica": 10,
+            "extensao": 10,
+            "total": 30
         },
         "ofertas": [
             {
                 "curso": "BICT Mar",
-                "semestre": 2
+                "semestre": 99
             }
         ],
         "observacoes": [
