@@ -1,0 +1,79 @@
+/* Cabeçalho */
+
+.cabecalho {
+
+    background-color: #2D6A4F;
+
+}
+
+/* Página */
+
+body {
+
+    background-color: #F8F9FA;
+
+}
+
+/* Área do grafo */
+
+#cy {
+
+    height: calc(100vh - 90px);
+
+    width: 100%;
+
+    background-color: white;
+
+}
+
+/* Lista de UCs */
+
+.uc-item {
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+
+    border: 1px solid #DEE2E6;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    background-color: white;
+
+}
+
+.uc-item:hover {
+
+    background-color: #D8F3DC;
+
+}
+
+/* Painel direito */
+
+#detalhesUC {
+
+    background-color: white;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    min-height: 400px;
+
+}
+
+#listaUCs {
+
+    max-height: 65vh;
+
+    overflow-y: auto;
+
+}
+
+.info-bloco {
+
+    margin-bottom: 20px;
+
+}

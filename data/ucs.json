@@ -1,0 +1,87 @@
+[
+    {
+        "codigo": "UC001",
+        "nome": "Estatística",
+        "area": "Matemática e Estatística",
+        "descricao": "Fundamentos de estatística aplicada.",
+        "carga_horaria": {
+            "teorica": 40,
+            "pratica": 20,
+            "extensao": 0,
+            "total": 60
+        },
+        "ofertas": [
+            {
+                "curso": "BICT Mar",
+                "semestre": 2
+            }
+        ],
+        "observacoes": [
+            "Base para disciplinas analíticas."
+        ],
+        "palavras_chave": [
+            "estatística",
+            "dados"
+        ],
+        "recomendacoes": []
+    },
+    {
+        "codigo": "UC002",
+        "nome": "Inteligência Artificial",
+        "area": "Ciência de Dados",
+        "descricao": "Introdução à Inteligência Artificial.",
+        "carga_horaria": {
+            "teorica": 40,
+            "pratica": 20,
+            "extensao": 0,
+            "total": 60
+        },
+        "ofertas": [
+            {
+                "curso": "Engenharia Ambiental",
+                "semestre": 5
+            }
+        ],
+        "observacoes": [
+            "Conhecimentos de programação são recomendados."
+        ],
+        "palavras_chave": [
+            "ia",
+            "algoritmos"
+        ],
+        "recomendacoes": [
+            "UC001",
+            "UC003"
+        ]
+    },
+    {
+        "codigo": "UC003",
+        "nome": "Machine Learning",
+        "area": "Ciência de Dados",
+        "descricao": "Aprendizado de máquina supervisionado e não supervisionado.",
+        "carga_horaria": {
+            "teorica": 40,
+            "pratica": 20,
+            "extensao": 10,
+            "total": 70
+        },
+        "ofertas": [
+            {
+                "curso": "Engenharia de Petróleo",
+                "semestre": 6
+            }
+        ],
+        "observacoes": [
+            "Python recomendado."
+        ],
+        "palavras_chave": [
+            "python",
+            "dados",
+            "ia"
+        ],
+        "recomendacoes": [
+            "UC001",
+            "UC002"
+        ]
+    }
+]
